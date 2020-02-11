@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.5.6 on linux)" rpa="false" generated="20200211 10:47:25.178">
+<suite name="Test" source="/home/than/robotFramework/test1/Test.robot" id="s1">
+<test name="Test my text" id="s1-t1">
+<kw name="Just a Keyword">
+<arguments>
+<arg>${path}</arg>
+</arguments>
+<kw name="Check Me" library="checkPattern">
+<arguments>
+<arg>${path}</arg>
+</arguments>
+<msg timestamp="20200211 10:47:25.218" level="INFO">jjj</msg>
+<status endtime="20200211 10:47:25.218" starttime="20200211 10:47:25.216" status="PASS"></status>
+</kw>
+<status endtime="20200211 10:47:25.218" starttime="20200211 10:47:25.215" status="PASS"></status>
+</kw>
+<status endtime="20200211 10:47:25.218" critical="yes" starttime="20200211 10:47:25.214" status="PASS"></status>
+</test>
+<status endtime="20200211 10:47:25.219" starttime="20200211 10:47:25.179" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" fail="0" pass="1" id="s1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
